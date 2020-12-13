@@ -1,0 +1,138 @@
+/* Stylesheet for about page*/
+
+/* main content css */
+
+.banner_quote {
+    padding-top: 20px;
+    font-size: 12pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.feature_container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    justify-items: center;
+    margin: 0 auto;
+    padding: 10px 10px 30px 10px;
+    
+}
+
+.feature {
+    border: 5px #1f1f1f solid;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+}
+
+#gallery {
+    position:relative;
+}
+
+#gallery_img{
+    width: 40%;
+    background-color: #1f1f1f;
+    padding: 5px 5px 5px 5px;
+    margin-top: 20px;
+}
+
+#gallery_overlay {
+    width: 20%;
+    position: absolute;
+    top: 0px;
+    left: 40%;
+    margin-top:40px;
+}
+
+main > p {
+    width: 50%;
+    text-align: justify;
+    text-indent: 5%;
+    line-height: 1.6;
+
+}
+
+#suggestion_box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#suggestion_form {
+    width: 60%;
+    height: 80pt;
+    border-radius: 10px;
+    
+}
+
+#submit {
+    width: 50%;
+    margin: 5pt 5pt 20pt 5pt;
+    padding: 5pt;
+    background-color: #365f71;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+
+}
+
+#submit:hover {
+    background-color: #365f71;
+    color: #fff;
+    
+}
+
+#thank_you_notif {
+    font-size: 14pt;
+}
+
+/* main banner uses this */
+main > img {
+    width: 30%;
+    min-width: 300px;
+
+}
+
+.tab {
+    font-weight: bold;   
+}
+
+/* css for button to scroll to top */
+.top {
+    background-color: #DCDCCF;
+    padding: 15px;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: fixed;
+    right:0;
+    bottom:0;
+    color:#000;
+    text-decoration: none;
+}
+
+/* media only screen */
+/* anything under the size of a tablet and under, use this */
+@media only screen and (max-width: 1400px){
+
+    .feature_container {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr;    
+        justify-items: center;
+        margin: 0 auto;
+
+    }
+
+    .feature_desc {
+        order:1;
+    }
+
+}
+

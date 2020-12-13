@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Hotspots</title>
+        <meta charset = "utf-8">
+        <meta name = "description" content = "Places to visit in a city">
+        <meta name = "keywords" content = "Buckingham Palace, World Trade Center, Pyramids of Giza, Eiffel Tower, Christ the redeemer, Marina Bay">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <link rel = "stylesheet" href = "styles/hotspots.css">
+        <link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css2?family=Charm&display=swap" rel="stylesheet">
+        <link rel = "shortcut icon" href = "images/Favicon.png">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>
+               Four Amigos
+           </h1>
+           <nav>
+               <ul>
+                   <!-- links are added to go to required the web pages -->
+                   <li><a href="../christine_ebeo/index.html" title = "Learn more about Home page">Home</a></li>
+                   <li><a href="../christine_ebeo/about.html" title = "Learn more about About page">About</a></li>
+                   <li><a href="../christine_ebeo/city.html" title = "Learn more about City page">City</a></li>
+                   <li><a href="hotspots.html" id="active" title = "Learn more about Hotspots page">Hotspots</a></li>
+                   <li><a href="food_and_drinks.html" title = "Learn more about Food and Drinks page">Food and Drinks</a></li>
+                   <li><a href="transportation.html" title = "Learn more about Transportation page">Transportation</a></li>
+                   <li><a href="../gurdesh_cheema/Hotelss.html" title = "Learn more about Accommodation page">Accommodation</a></li>
+                   <li><a href="../gurdesh_cheema/shop.html" title = "Learn more about Shopping page">Shopping</a></li>
+                   <li><a href="../gurdesh_cheema/Maps.html" title = "Learn more about Map page">Map</a></li>
+                   <li><a href="../chisom_anele/gallery page.html" title = "Learn more about Gallery page">Gallery</a></li>
+                   <li><a href="../chisom_anele/help services.html" title = "Learn more about Services page">Services</a></li>
+                   <li><a href="../chisom_anele/contacts page.html" title = "Learn more about Contact Us page">Contact Us</a></li>
+               </ul>
+           </nav>
+       </header>
+       <main>       
+           <!--Drop-down list for the various cities-->
+            <div  id = "dropdown">
+                <p>Select City</p>
+                <nav id = "dropdown1">
+                    <ul>
+                        <li><a href="hotspots_city.html?city=new_york"  title = "Places to visit in New York">New York</a></li>
+                        <li><a href="hotspots_city.html?city=tokyo"  title = "Places to visit in Tokyo">Tokyo</a></li>
+                        <li><a href="hotspots_city.html?city=london"  title = "Places to visit in London">London</a></li>
+                    </ul>
+                </nav>
+            </div>
+           <!--Images for Slide show with fading effect-->
+            <img id = "slide" src="images/London/buckingham_palace.jpg" alt="" />
+            <div id = "myDiv">
+                <img src="images/London/buckingham_palace.jpg" alt="Buckingham Palace" />
+                <img src="images/NewYork/world-trade-center.jpg" alt="World Trade Center" />
+                <img src="images/Cairo/pyramids-of-giza.jpg" alt="Pyramids of Giza" />
+                <img src="images/Paris/eiffel-tower-paris.jpg" alt="Eiffel Tower" />
+                <img src="images/RioDeJanerio/christ-the-redeemer.jpg" alt="Christ the redeemer" />
+                <img src="images/Singapore/marina_bay.jpg" alt="Marina Bay" />
+            </div>  
+            <h2 id="caption">Buckingham Palace</h2>  
+        </main>
+        <footer>
+           <p>Copyright 2020</p>
+        </footer>   
+        <script src = "js/hotspots.js"></script>  
+    </body>
+</html>
+
