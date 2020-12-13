@@ -1,0 +1,268 @@
+header, nav{
+  /*border: red 1px solid;*/
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+footer{
+  margin-left: 610px ;
+}
+
+/* header */
+header {
+  text-align: center;
+  margin-top: 2%;
+}
+
+body::before {
+  content: "";
+  /*background: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(0, 255, 255, 0.3)), url("../images/bg-ocean.jpg");*/
+  /* background-image: url("./Images/image.jpg"); */
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("./Images/asakusa-tokyo-2.jpeg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center center;
+
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: -100px;
+  right: 0;
+  position:fixed;
+  z-index: -1;
+}
+
+header > h1 {
+  margin: 0 auto;
+  font-size: 50pt;
+  font: 70pt 'Great Vibes', Helvetica, sans-serif;
+  color: #000;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px rgb(145, 86, 44), 0 0 20px rgb(145, 86, 44), 0 0 25px rgb(145, 86, 44), 0 0 30px rgb(145, 86, 44), 0 0 35px rgb(145, 86, 44);
+
+}
+
+/* navigation within header */
+header > nav  {
+  width: 100%;
+  
+}
+
+header > nav > ul {
+  list-style: none;
+}
+
+header > nav > ul > li {
+  display: inline;
+  padding: 5x;
+
+}
+
+header > nav > ul > li > a {
+  /*font-family: cursive;*/
+  padding: 10px;
+  background-color: #2c2e33;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header > nav > ul > li > a:hover {
+  
+  background-color: #fff;
+  color: #000;
+}
+
+header > nav > ul > li > #active{
+  background-color: rgb(145, 86, 44);;
+  color: #fff;
+}
+.btn {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background: #808080;
+  color: #fff;
+  margin: 1em;
+}
+.btn:hover, .btn:focus {
+  color: #fff;
+  background: #333;
+}
+
+.static-img {
+  display: block;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+
+.map-container {
+  width: 60%;
+  margin: 0 auto;
+  height: 0;
+  padding-top: 40%;
+  position: relative;
+  display: none;
+  
+  
+ 
+}
+.btn{
+  margin: 3% 43%;
+  padding: 17px;
+  background-color: burlywood;
+  border-radius: 26px;
+  color:white !important;
+}
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 1em;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+
+@media all and (min-width: 34.375em) {
+  .map-container {
+    display: block;
+  }
+
+  .static-img {
+    display: none;
+  }
+}
+
+
+  
+.map{
+  background: transparent;
+  margin:40px 0px;
+  
+  
+}
+footer img{
+  height: 80px;
+}
+iframe{
+  border-radius: 25px;
+  float: left;
+}
+.pattern{
+  background:transparent !important;
+  border-bottom:0 !important;
+}
+
+.btn map-link
+{
+
+}
+.container {
+
+  outline:none;
+  border:none;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 25px;
+  padding:0px;
+  font-family:Courier, monospace;
+}
+.container body {
+  background:#333 url(https://static.tumblr.com/maopbtg/a5emgtoju/inflicted.png) repeat;        
+}
+.container #paper {
+  color:#FFF;
+  font-size:20px;
+}
+.container #margin {
+  margin-left:12px;
+  margin-bottom:20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none; 
+}
+.container #text {
+  width:500px;
+  overflow:hidden;
+  background-color:#FFF;
+  color:#222;
+  font-family:Courier, monospace;
+  font-weight:normal;
+  font-size:24px;
+  resize:none;
+  line-height:40px;
+  padding-left:100px;
+  padding-right:100px;
+  padding-top:45px;
+  padding-bottom:34px;
+  background-image:url(https://static.tumblr.com/maopbtg/E9Bmgtoht/lines.png), url(https://static.tumblr.com/maopbtg/nBUmgtogx/paper.png);
+  background-repeat:repeat-y, repeat;
+  -webkit-border-radius:12px;
+  border-radius:12px;
+  -webkit-box-shadow: 0px 2px 14px #000;
+  box-shadow: 0px 2px 14px #000;
+  border-top:1px solid #FFF;
+  border-bottom:1px solid #FFF;
+}
+.container #title {
+  /* background-color:transparent; */
+  background: rgb(156,156,156);
+  background: linear-gradient(0deg, rgba(156,156,156,0.6477941518404237) 0%, rgba(149,149,149,0.8074580173866421) 100%);
+  border-bottom:3px solid #FFF;
+  color:#FFF;
+  font-size:20px;
+  font-family:Courier, monospace;
+  height:28px;
+  font-weight:bold;
+  width:220px;
+}
+.container #button {
+  cursor:pointer;
+  margin-top:20px;
+  float:right;
+  height:40px;
+  padding-left:24px;
+  padding-right:24px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  font-size:20px;
+  color:#FFF;
+  text-shadow: 0px -1px 0px #000000;
+  -webkit-border-radius:8px;
+  border-radius:8px;
+  border-top:1px solid #FFF;
+  -webkit-box-shadow: 0px 2px 14px #000;
+  box-shadow: 0px 2px 14px #000;
+  background-color: #62add6;
+  background-image:url(https://static.tumblr.com/maopbtg/ZHLmgtok7/button.png);
+  background-repeat:repeat-x;
+}
+.container #button:active {
+  zoom: 1;
+  filter: alpha(opacity=80);
+  opacity: 0.8;
+}
+.container #button:focus {
+  zoom: 1;
+  filter: alpha(opacity=80);
+  opacity: 0.8;
+}
+.container #wrapper {
+  width:700px;
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:24px;
+  margin-bottom:100px;
+}
