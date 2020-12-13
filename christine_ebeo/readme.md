@@ -5,6 +5,9 @@
 
 ## Tasks
 - [x] Push the project HTML, CSS, and JS code to GitHub
+- [x] index.html page now has a preloader
+- [x] about.html page gallery moved to top of page and suggestion box added at the bottom
+- [x] city.html page injects text to main page city
 
 ## Learning Curve and challengers
 - index.html, had trouble implementing the preloader using plain JS. Had to use jQuery. Solution looks shorter too.

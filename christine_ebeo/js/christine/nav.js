@@ -1,6 +1,5 @@
 // cretes the navigation on all three features
 function init_nav_list(){
-    console.log("init");
 
     var nav_items = [
         ["index.html", "Home"],
